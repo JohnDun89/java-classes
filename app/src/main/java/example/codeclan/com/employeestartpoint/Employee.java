@@ -45,6 +45,10 @@ public class Employee {
         return socialSecurityNumber;
     }
 
+    public void giveRaise(double increase) {
+        salary += increase;
+    }
+
 //    public void setSocialSecurityNumber(String socialSecurityNumber) {
 //        this.socialSecurityNumber = socialSecurityNumber;
 //    }
