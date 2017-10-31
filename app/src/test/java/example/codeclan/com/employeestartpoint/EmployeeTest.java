@@ -27,11 +27,11 @@ public class EmployeeTest {
         assertEquals("AB123456C", employee.getSocialSecurityNumber());
     }
 
-    @Test
-    public void canSetEmployeeId() {
-        employee.setId(99);
-        assertEquals(99, employee.getId());
-    }
+//    @Test
+//    public void canSetEmployeeId() {
+//        employee.setId(99);
+//        assertEquals(99, employee.getId());
+//    }
 
     @Test
     public void canSetEmployeeName() {
@@ -39,15 +39,15 @@ public class EmployeeTest {
         assertEquals("Betty", employee.getName());
     }
 
-    @Test
-    public void canSetEmployeeSsn() {
-        employee.setSocialSecurityNumber("XY987654Z");
-        assertEquals("XY987654Z", employee.getSocialSecurityNumber());
-    }
+//    @Test
+//    public void canSetEmployeeSsn() {
+//        employee.setSocialSecurityNumber("XY987654Z");
+//        assertEquals("XY987654Z", employee.getSocialSecurityNumber());
+//    }
 
-    @Test
-    public void canSetEmployeeSalary() {
-        employee.setSalary(40000.00);
-        assertEquals(40000.00, employee.getSalary(), 0.01);
-    }
+//    @Test
+//    public void canSetEmployeeSalary() {
+//        employee.setSalary(40000.00);
+//        assertEquals(40000.00, employee.getSalary(), 0.01);
+//    }
 }
